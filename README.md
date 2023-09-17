@@ -1,5 +1,7 @@
 Tascomm Javascript and CSS Analog/Digital Clock Application
     This project creates an interactive analog clock with a dynamic background using HTML, CSS, and JavaScript.
+    ![Tascomm Analog Digital Timer Application](https://github.com/tasiecc/Tascomm_Javascript_Clock/assets/64579151/152603f5-7b5c-42f1-a648-e4644421f657)
+
 
 Overview
     The analog clock displays the current time with second, minute, and hour hands. The background image changes dynamically based on the time of day.
