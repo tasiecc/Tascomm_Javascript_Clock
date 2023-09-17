@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tascomm Javascript & CSS Clock</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="header">
+    <h1> Tascomm Javascript & CSS Clock Application</h1>
+    <hr><br>
+  </div>
+<center>
+  <div class="clock">
+    <div class="clock-face">
+      <div class="hand hour-hand"></div>
+      <div class="hand min-hand"></div>
+      <div class="hand second-hand"></div>
+      <div class="hour-num num-1">1</div>
+      <div class="hour-num num-2">2</div>
+      <div class="hour-num num-3">3</div>
+      <div class="hour-num num-4">4</div>
+      <div class="hour-num num-5">5</div>
+      <div class="hour-num num-6">6</div>
+      <div class="hour-num num-7">7</div>
+      <div class="hour-num num-8">8</div>
+      <div class="hour-num num-9">9</div>
+      <div class="hour-num num-10">10</div>
+      <div class="hour-num num-11">11</div>
+      <div class="hour-num num-12">12</div>
+    <div class="diamond">
+    </div>
+    </div>
+  </div>
+</center>
+
+  <div class="digital-clock">
+    <span id="digital-hour">00</span> :
+    <span id="digital-min">00</span> :
+    <span id="digital-sec">00</span>
+  </div>
+<!--
+<div class="timezone-selector">
+  <label for="timezone">Select Time Zone:</label>
+  <select id="timezone">
+    <option value="auto" selected>Auto (Your Local Time)</option>
+    <option value="UTC">UTC</option>
+    <option value="America/New_York">New York</option>
+    <option value="America/Los_Angeles">Los Angeles</option>
+    <option value="America/Chicago">Chicago</option>
+    <option value="America/Denver">Denver</option>
+    <option value="America/Phoenix">Phoenix</option>
+    <option value="America/Anchorage">Anchorage</option>
+    <option value="America/Honolulu">Honolulu</option>
+    <option value="Europe/London">London</option>
+    <option value="Europe/Paris">Paris</option>
+    <option value="Europe/Berlin">Berlin</option>
+    <option value="Asia/Tokyo">Tokyo</option>
+    <option value="Asia/Shanghai">Shanghai</option>
+    <option value="Asia/Dubai">Dubai</option>
+    <option value="Asia/Kolkata">Kolkata</option>
+    <option value="Asia/Singapore">Singapore</option>
+    <option value="Australia/Sydney">Sydney</option>
+    <option value="Australia/Melbourne">Melbourne</option>
+    <option value="Pacific/Auckland">Auckland</option>
+  </select>
+  <button id="apply-button">Apply</button>
+</div>
+
+-->
+
+  <div class="customize-clock">
+    Select Color: <input type="color" id="hand-color" placeholder="Hand Color">
+    <input type="number" id="hour-length" placeholder="Hour Hand Length">
+    <input type="number" id="min-length" placeholder="Minute Hand Length">
+    <input type="number" id="sec-length" placeholder="Second Hand Length">
+    <button onclick="customizeClock()">Apply</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
